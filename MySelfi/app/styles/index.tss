@@ -1,0 +1,23 @@
+"#titleLabel": {
+    font: {
+        fontSize: '30'
+    },
+    left: '10'
+},
+"#authorLabel": {
+    font: {
+        fontSize: '20',
+        color: 'black'
+    },
+    left: '10'
+},
+"#pageLabel":{
+	font: {
+		fontsize:'20',
+		color: 'black'
+	},
+	left:'10'
+},
+".container" : { 
+   backgroundColor: 'blue' 
+}

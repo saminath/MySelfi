@@ -1,0 +1,30 @@
+<Alloy>
+	<Window class="container"  >
+
+		<TableView id="menu"  opacity="100" borderWidth="10%"   >
+			<TableViewRow  >
+				<View width="40%" left="10%"  ><Label color="#3fa9f5" font="fontSize:50%" >Frame No </Label> </View>
+				<View width="30%" left="60%" backgroundColor="#000000"  > <Picker id="picker_count" > <PickerRow title="5"></PickerRow> <PickerRow title="10"></PickerRow><PickerRow title="20"></PickerRow> </Picker> </View>
+			</TableViewRow>
+			<TableViewRow >
+				<View width="40%" left="10%"   ><Label color="#3fa9f5"   >Frame interval sec</Label> </View>
+				<View width="30%" left="60%" backgroundColor="#000000" >  <Picker id="picker_sec"> <PickerRow title="1"></PickerRow> <PickerRow title="2"></PickerRow><PickerRow title="5"></PickerRow> </Picker>  </View>
+			</TableViewRow>
+			
+			<TableViewRow  >
+				<View width="40%" left="10%"  ><Label color="#3fa9f5" >Camera</Label> </View>
+				<View width="30%" left="60%" backgroundColor="#000000" > <Picker id="picker_camera" > <PickerRow title="FRONT"></PickerRow> <PickerRow title="REAR"></PickerRow></Picker>  </View>
+			</TableViewRow>
+			
+			<TableViewRow  >
+				<View width="40%" left="10%"   ><Label color="#3fa9f5" >Flash Mode </Label> </View>
+				<View width="30%" left="60%" backgroundColor="#000000" > <Picker id="picker_flash" > <PickerRow title="ON"></PickerRow> <PickerRow title="OFF"></PickerRow></Picker>  </View>
+			</TableViewRow>
+			
+			<TableViewRow>
+				<View width="50%" left="35%"  ><Button backgroundColor="#ffb735" onClick="ImageConfiguration" > Open Cameras</Button> </View>
+			</TableViewRow>
+		</TableView>
+			
+	</Window>
+</Alloy>
